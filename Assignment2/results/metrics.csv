@@ -1,0 +1,5 @@
+﻿experiment,accuracy,f1_score,confusion_matrix
+SVM_no_scaling,0.6201,0.32,"[[95, 15], [53, 16]]"
+StandardScaler_SVM,0.8156,0.736,"[[100, 10], [23, 46]]"
+StandardScaler_KNN,0.8156,0.7442,"[[98, 12], [21, 48]]"
+MinMaxScaler_KNN,0.8101,0.7258,"[[100, 10], [24, 45]]"

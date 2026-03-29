@@ -1,0 +1,75 @@
+[SVM_no_scaling]
+Accuracy: 0.6201
+F1-score: 0.3200
+Confusion Matrix:
+[[95 15]
+ [53 16]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.64      0.86      0.74       110
+           1       0.52      0.23      0.32        69
+
+    accuracy                           0.62       179
+   macro avg       0.58      0.55      0.53       179
+weighted avg       0.59      0.62      0.58       179
+
+------------------------------------------------------------
+
+[StandardScaler_SVM]
+Accuracy: 0.8156
+F1-score: 0.7360
+Confusion Matrix:
+[[100  10]
+ [ 23  46]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.81      0.91      0.86       110
+           1       0.82      0.67      0.74        69
+
+    accuracy                           0.82       179
+   macro avg       0.82      0.79      0.80       179
+weighted avg       0.82      0.82      0.81       179
+
+------------------------------------------------------------
+
+[StandardScaler_KNN]
+Accuracy: 0.8156
+F1-score: 0.7442
+Confusion Matrix:
+[[98 12]
+ [21 48]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.89      0.86       110
+           1       0.80      0.70      0.74        69
+
+    accuracy                           0.82       179
+   macro avg       0.81      0.79      0.80       179
+weighted avg       0.81      0.82      0.81       179
+
+------------------------------------------------------------
+
+[MinMaxScaler_KNN]
+Accuracy: 0.8101
+F1-score: 0.7258
+Confusion Matrix:
+[[100  10]
+ [ 24  45]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.81      0.91      0.85       110
+           1       0.82      0.65      0.73        69
+
+    accuracy                           0.81       179
+   macro avg       0.81      0.78      0.79       179
+weighted avg       0.81      0.81      0.81       179
+
+------------------------------------------------------------
