@@ -1,0 +1,71 @@
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# Kaggle API key
+.kaggle/
+kaggle.json
+
+# Local data files
+data/raw/
+data/processed/
+
+# Experiment outputs
+outputs/figures/
+outputs/metrics/
+outputs/tmp/
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.joblib
+
+# LightGBM / XGBoost temp artifacts
+*.bin
+*.txt
+
+# Notebook exported artifacts
+*.html
+
+# Ignore large model artifacts
+models/
+checkpoints/
+artifacts/
