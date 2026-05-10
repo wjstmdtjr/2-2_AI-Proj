@@ -69,3 +69,7 @@ outputs/tmp/
 models/
 checkpoints/
 artifacts/
+
+# Superpowers generated docs and session artifacts
+docs/superpowers/
+.superpowers/
